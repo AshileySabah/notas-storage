@@ -1,4 +1,4 @@
-# notas-storage
+# notes-storage
 
 Note App with storage implementation
 
