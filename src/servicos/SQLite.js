@@ -1,7 +1,8 @@
 import * as SQLite from "expo-sqlite";
 
 function abreConexao() {
-  return SQLite.openDatabase("db.db");
+  const database = SQLite.openDatabase("db.db");
+  return database;
 }
 
 export const db = abreConexao();
